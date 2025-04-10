@@ -39,4 +39,4 @@ This project implements the Apriori algorithm to mine association rules from a m
 
 ## 📁 File Structure
 
-- `Aditya_Ketanbhai_Shah_hw4.ipynb` – Jupyter notebook containing code, results, and explanations
+- `Association Rule Mining with Apriori Algorithm.ipynb` – Jupyter notebook containing code, results, and explanations
