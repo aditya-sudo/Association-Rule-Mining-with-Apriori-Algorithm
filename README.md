@@ -1,42 +1,44 @@
-# Association Rule Mining with Apriori Algorithm
+# 🎞️ Association Rule Mining on Movie Ratings with Apriori Algorithm
 
-This project implements the Apriori algorithm to mine association rules from a movie-watching dataset, treating users as transactions and movies as items. The goal is to discover interesting patterns in user behavior based on their watched movies.
+## 📌 Project Overview
 
-## 📌 Objectives
+This project explores **association rule mining** by implementing the **Apriori algorithm** from scratch to discover frequent movie-watching patterns among users. The analysis is based on transforming a user-movie interaction dataset into transactions and identifying frequent itemsets and strong rules.
 
-- Understand and implement the Apriori algorithm from scratch.
-- Transform raw movie-watching data into transactions.
-- Generate frequent itemsets with minimum support threshold.
-- Derive strong association rules using confidence metrics.
-- Analyze and interpret the resulting rules to uncover patterns in user preferences.
+## 🧠 Objectives
 
-## 🛠 Tools and Technologies
+- Implement the Apriori algorithm from scratch using Python.
+- Preprocess user-movie interaction data into transaction format.
+- Extract frequent movie combinations watched together using support and confidence thresholds.
+- Generate meaningful association rules that reveal user behavior trends.
 
-- Python 3
+## 🧪 Technologies Used
+
+- Python
+- NumPy
 - Pandas
-- Numpy
-- Custom implementation (no external ML libraries used for mining)
+- DefaultDict & itertools
+- Jupyter Notebook
 
 ## 📊 Dataset
 
-- **Source**: Provided by the course (George Mason University, CS 584)
-- **Format**: Two-column CSV (user ID, movie ID)
-- **Preprocessing**: Transformed into a transaction list (movies watched per user)
+- **movie_rated.txt**: Contains user-movie viewing pairs.
+- **movies.csv**: Maps movie IDs to human-readable movie titles.
+- Each user is treated as a transaction of movie IDs.
 
 ## 📈 Results
 
-- Frequent itemsets discovered with **minimum support = 0.2**
-- Association rules derived with **minimum confidence = 0.8**
-- Patterns reveal common co-watched movies among users
-- Results validate the correctness and efficiency of the Apriori implementation
+- Discovered frequent movie combinations using a **minimum support of 0.2** and **confidence threshold of 0.8**.
+- Generated human-readable association rules (e.g., users who watch X also tend to watch Y).
+- Illustrated the usefulness of Apriori in extracting insights from behavioral data.
 
-## 🎓 Learning Outcomes
+## 📚 Learning Outcomes
 
-- Gained hands-on experience with association rule mining techniques
-- Learned how to preprocess transactional data for pattern discovery
-- Reinforced understanding of support, confidence, and lift in rule mining
-- Practiced writing clean, modular Python code for data mining
+- Gained practical experience with association rule mining and market basket analysis.
+- Deepened understanding of frequent pattern mining, itemsets, support, and confidence.
+- Developed custom Apriori logic and data transformation pipelines.
 
-## 📁 File Structure
+## 👨‍💻 Author
 
-- `Association Rule Mining with Apriori Algorithm.ipynb` – Jupyter notebook containing code, results, and explanations
+Aditya Ketanbhai Shah
+
+> 🧩 Project completed for academic coursework in data mining. Focused on applying foundational data science techniques to behavioral analysis.
